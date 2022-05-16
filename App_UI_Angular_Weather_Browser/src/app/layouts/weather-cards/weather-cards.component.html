@@ -1,0 +1,36 @@
+<div class="panel-header panel-header-sm">
+</div>
+<div class="main-content">
+  <div class="row">
+
+    <div class="no-data text-center" *ngIf="Weather.length == 0">
+      <p>Somethings go wrong..</p>
+    </div>
+
+    <div class="col-md-4" *ngFor="let weather of Weather">
+      <div class="card card-user">
+        <div class="image">
+          <img src="{{weather.liveWeather}}" alt="CITY">
+        </div>
+        <div class="card-body">
+          <div class="weather">
+            <a href="#" onClick="return false;">
+              <img class="avatar border-gray" src="{{weather.liveCity}}" alt="WEATHER">
+              <h5 class="title">{{ weather.location }}</h5>
+            </a>
+            <p class="description">
+              {{ weather.icon }}
+            </p>
+          </div>
+          <p class="description text-center">
+            {{ weather.temperature }}
+            <br> {{ weather.wind }}
+            <br> {{ weather.cloudiness }}
+          </p>
+        </div>
+        <hr>
+      </div>
+    </div>
+
+  </div>
+</div>

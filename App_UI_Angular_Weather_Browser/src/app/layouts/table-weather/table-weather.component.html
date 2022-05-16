@@ -1,0 +1,45 @@
+<div class="panel-header panel-header-sm">
+</div>
+<div class="main-content">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-header">
+          <h4 class="card-title"> Weather Table</h4>
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table">
+              <thead class=" text-primary">
+              <th>
+                Location
+              </th>
+              <th>
+                Temperature
+              </th>
+              <th>
+                Wind
+              </th>
+              <th>
+                Cloudiness
+              </th>
+              <th>
+                Icon
+              </th>
+              </thead>
+              <tbody>
+                <tr *ngFor="let weather of Weather">
+                  <td>{{ weather.location }}</td>
+                  <td>{{ weather.temperature }}</td>
+                  <td>{{ weather.wind }}</td>
+                  <td>{{ weather.cloudiness }}</td>
+                  <td>{{ weather.icon }}</td>
+                  </tr> 
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+</div>
