@@ -20,7 +20,7 @@ A short YouTube presentation is available at: https://www.youtube.com/watch?v=g3
 ![Screenshot - 16_05 002](https://user-images.githubusercontent.com/55595642/168666050-864ff0e5-25db-4052-a59d-c3faa9c205e6.png)
 <br>
 ![Screenshot - 16_05 003](https://user-images.githubusercontent.com/55595642/168666114-e650e7cd-1260-4aac-8a23-7d43464d8be2.png)
-<br>
-Kind Regards,
+<br><br>
+Kind Regards,<br>
 Damian Nass
 
